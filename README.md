@@ -1,24 +1,12 @@
-# cli-projet
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Monde Actus
+Blog Monde Actu  est une petite application réalisée en Vue.js, permettant de consulter l'actualité dans le monde grâce à une API.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Page HOME de l'application
+![PageHome](https://user-images.githubusercontent.com/82278000/114867413-13394200-9df5-11eb-9bd3-bc95c04d8348.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Page ACTU de l'application
+![PageActu](https://user-images.githubusercontent.com/82278000/114868443-344e6280-9df6-11eb-9d3e-1aaaf86b5a4e.png)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
