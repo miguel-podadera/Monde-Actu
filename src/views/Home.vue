@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <div id="pap">
+      <Composanthome :titre="text" />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
+import Composanthome from "@/components/Composanthome.vue";
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
+  components: { Composanthome },
+
+  data: () => ({
+    text: "",
+  }),
 };
 </script>
+
+<style>
+body {
+  background-color: #e5e5e5;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#pap {
+  background-image: url(../image/earth.jpg);
+  background-attachment: fixed;
+  height: 670px;
+  width: 100%;
+  background-size: cover;
+  margin-top: -10px;
+}
+</style>
